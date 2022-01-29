@@ -1,0 +1,5 @@
+javac GUI.java Plateau.java Region.java Brave.java Temeraire.java Joueur.java Case.java Fichier.java
+
+jar -cvf GUI.jar GUI.class Plateau.class Region.class Brave.class Temeraire.class Joueur.class Case.class Fichier.class
+
+java -cp ./GUI.jar GUI
